@@ -1,0 +1,50 @@
+.kwadrat {
+    width: 150px;
+    height: 150px;
+    display:inline-block;
+    position: relative;
+    /*margin-left: 5px;*/
+}
+.kolo {
+
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border-color: black;
+    border: 1px solid black;
+    background-color: blue;
+    position: absolute;
+    left: 37px;
+    top: 37px;
+}
+.pierwszy {
+    height: 500px;
+    width: 500px;
+}
+.orange {
+    background-color: orange;
+}
+.magenta {
+    background-color: rgb(128, 3, 128);
+}
+.pink {
+    background-color: pink;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.black {
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+.gray {
+    background-color: gray;
+}
