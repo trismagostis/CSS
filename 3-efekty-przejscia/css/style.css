@@ -1,0 +1,27 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 15px;
+    transition: all  2s ease-in-out 1s;
+    
+}
+.red {
+    background-color: red;
+}
+.red:hover {
+    width: 300px;
+}
+.green {
+    background-color: green;
+}
+.green:hover {
+    height: 300px;
+}
+.blue {
+    background-color: blue;
+}
+.blue:hover{
+    width: 300px;
+    height: 300px;
+}
