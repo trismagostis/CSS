@@ -30,7 +30,10 @@
   #odliczanie1, #odliczanie2, #odliczanie3, #odliczanie4, #odliczanie5, #odliczanie6, #odliczanie7, #odliczanie8, #odliczanie9, #odliczanie10, #odliczaniefinal {
     text-align: center;
     visibility: hidden;
-  }
+    animation-duration: 1s;
+    animation-name: znikanie;
+    animation-timing-function: ease-in-out
+    }
   
   @keyframes znikanie {
     0% {
@@ -47,81 +50,76 @@
     }
   }
   
-  #odliczanie10 {
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
-  }
   
   #odliczanie9 {
     animation-delay: 1s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczanie8 {
     animation-delay: 2s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczanie7 {
     animation-delay: 3s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczanie6 {
     animation-delay: 4s;  
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczanie5 {
     animation-delay: 5s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczanie4 {
     animation-delay: 6s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczanie3 {
     animation-delay: 7s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczanie2 {
     animation-delay: 8s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczanie1 {
     animation-delay: 9s;
-    animation-duration: 1s;
-    animation-name: znikanie;
-    animation-timing-function: ease-in-out;
+    
+    
+    ;
   }
   
   #odliczaniefinal {
     animation-delay: 10s;
-    animation-duration: 1s;
+    
     animation-iteration-count: infinite;
     animation-name: pojawieniesie;
-    animation-timing-function: ease-in-out;
+    ;
   }
   
   #odliczaniefinal span {
